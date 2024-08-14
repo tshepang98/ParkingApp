@@ -24,7 +24,7 @@ print(f'SECRET_KEY: {SECRET_KEY}')
 DEBUG = os.environ.get('DEBUG', '') != 'False'
 print(f'DEBUG: {DEBUG}')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://web-production-1d4a.up.railway.app/"]
 
 
 # Application definition
