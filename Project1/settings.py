@@ -22,6 +22,7 @@ print(f'SECRET_KEY: {SECRET_KEY}')
 
 # DEBUG = True
 DEBUG = os.environ.get('DEBUG', '') != 'False'
+print(f'DEBUG: {DEBUG}')
 
 ALLOWED_HOSTS = []
 
